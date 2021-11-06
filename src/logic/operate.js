@@ -20,5 +20,8 @@ export default function operate(numberOne, numberTwo, operation) {
       return one.div(two).toString();
     }
   }
+  if (operation === "x^y") {
+    return Math.pow(one, two);
+  }
   throw Error(`Unknown operation '${operation}'`);
 }
