@@ -25,3 +25,8 @@
   background-color: #f5923e;
   color: white;
 }
+
+.component-button.current button {
+  background-color: #1c65c6;
+  color: white;
+}
